@@ -1,20 +1,35 @@
-# 🏋️ FitnessAI - Intelligent Workout & Nutrition Planner
+# FitnessAI - Intelligent Workout & Nutrition Planner
 
-A comprehensive fitness application that leverages artificial intelligence to create personalized workout and nutrition plans. Built with Python, Streamlit, and Google Gemini AI.
+A comprehensive fitness application that leverages artificial intelligence to create personalized workout and nutrition plans. Built with modern web technologies and designed for scalability and user engagement.
 
-## 🌟 Key Features
-* *Personalized Workouts:* 7-day plans tailored to your goal (Weight Loss, Muscle Gain, etc.).
-* *Smart Diet Planning:* Budget-friendly meal plans respecting your dietary preference (Veg/Non-Veg).
-* *AI-Powered:* Uses Google's Gemini Pro model for expert-level advice.
-* *PDF Export:* Download your complete plan to take to the gym.
+## 🌟 Overview
+FitnessAI combines advanced AI capabilities with intuitive user experience to deliver scientifically-backed fitness recommendations. The application analyzes user profiles, preferences, and goals to generate customized 7-day workout and nutrition plans.
 
-## 🚀 How to Run Locally
-1.  Clone the repository.
-2.  Install dependencies: pip install -r requirements.txt
-3.  Run the app: streamlit run app.py
+## 🚀 Key Features
 
-## 🛠️ Tech Stack
+### Intelligent Planning
+* *AI-Powered Recommendations:* Advanced algorithms analyze user data to create optimal fitness plans.
+* *Personalized Profiles:* Comprehensive user profiling with health metrics and lifestyle preferences.
+* *Scientific Optimization:* Plans based on exercise science and nutritional research.
+
+### Workout Management
+* *Customized Routines:* 7-day workout plans tailored to individual goals and equipment.
+* *Progressive Difficulty:* Plans that adapt to user experience level (Beginner to Advanced).
+* *Equipment Flexibility:* Workouts designed for home gyms, commercial facilities, or bodyweight training.
+
+### Nutrition Planning
+* *Cultural Adaptation:* Meal plans that respect cultural and regional food preferences.
+* *Dietary Compliance:* Support for Veg, Non-Veg, Vegan, and Keto options.
+* *Budget Optimization:* Cost-effective meal planning based on user budget.
+
+## 🛠️ Technology Stack
 * *Frontend:* Streamlit
-* *AI Engine:* Google Gemini (via google-generativeai)
+* *AI Engine:* Google Gemini Pro
 * *Backend:* Python 3.x
-*
+* *Data Handling:* Pandas & NumPy
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
