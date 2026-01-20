@@ -36,7 +36,6 @@ Most fitness applications provide generic, "one-size-fits-all" advice that fails
 
 *Solution:* FitnessAI acts as a *virtual personal trainer*, using Generative AI to create hyper-personalized schedules that adapt to the user's specific life constraints.
 
-
 ## 🏗️ System Architecture
 
 The application follows a modular architecture separating the UI, Logic, and AI interaction layers.
@@ -51,6 +50,8 @@ graph TD
     E --> G["Display UI"]
     F --> G
     G -->|Export| H["PDF Report"]
+
+    
 ## 📦 Installation
 
 1. Clone the repository:
