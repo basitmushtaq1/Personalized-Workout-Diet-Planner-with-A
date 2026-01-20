@@ -43,15 +43,14 @@ The application follows a modular architecture separating the UI, Logic, and AI 
 
 ```mermaid
 graph TD
-    A[User Interface (Streamlit)] -->|Input Profile Data| B[Input Processor]
-    B -->|Structured Prompt| C{AI Engine (Gemini Pro)}
-    C -->|JSON Response| D[Plan Parser]
-    D -->|Formatted Data| E[Workout Generator]
-    D -->|Formatted Data| F[Diet Generator]
-    E --> G[Display UI]
+    A["User Interface (Streamlit)"] -->|Input Profile Data| B["Input Processor"]
+    B -->|Structured Prompt| C{"AI Engine (Gemini Pro)"}
+    C -->|JSON Response| D["Plan Parser"]
+    D -->|Formatted Data| E["Workout Generator"]
+    D -->|Formatted Data| F["Diet Generator"]
+    E --> G["Display UI"]
     F --> G
-    G -->|Export| H[PDF Report]
-
+    G -->|Export| H["PDF Report"]
 ## 📦 Installation
 
 1. Clone the repository:
